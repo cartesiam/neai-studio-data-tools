@@ -16,6 +16,6 @@ Usage:
 - Configure parameters inside `neai_format.py` script.
 - Run `python3 neai_format.py -i <input_file.csv> -o <output_file.csv>`
 
-Note: `neai_format.py` runs with Python 3 and use only standard libraries.
+Note: `neai_format.py` runs with Python 3 and uses only standard libraries.
 
 See [documentation](https://cartesiam-neai-docs.readthedocs-hosted.com/studio/studio.html#ii-general-approach-for-formatting-input-files-properly) for more information on how input files should be formatted.
