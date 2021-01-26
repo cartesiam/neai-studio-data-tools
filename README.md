@@ -5,7 +5,6 @@ This repository contains scripts and tools to help creating data logs to be used
 ## Formatting data logs
 
 To format data logs, please use the script `neai_format.py`.
-See [documentation](https://cartesiam-neai-docs.readthedocs-hosted.com/studio/studio.html#ii-general-approach-for-formatting-input-files-properly) for more information on how input files should be formatted.
 
 What the script can do:
 - Build buffer of data
@@ -18,3 +17,5 @@ Usage:
 - Run `python3 neai_format.py -i <input_file.csv> -o <output_file.csv>`
 
 Note: `neai_format.py` runs with Python 3 and use only standard libraries.
+
+See [documentation](https://cartesiam-neai-docs.readthedocs-hosted.com/studio/studio.html#ii-general-approach-for-formatting-input-files-properly) for more information on how input files should be formatted.
