@@ -175,8 +175,7 @@ def create_dataset(input_file_reader, output_file_path, columns_indexes):
             # Write line to output file
             output_line_string = ','.join(tmp_buffer)
             with open(output_file_path, "a") as o:
-                nl = '\n'
-                o.write(f'{nl if nb_lines_built > 0 else ""}' + output_line_string)
+                o.write(f'{output_line_string}\n')
             # Set counters
             tmp_buffer = []
             nb_lines_built += 1
